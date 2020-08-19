@@ -35,6 +35,7 @@
 		1E41BC4224ED2D60002D1C98 /* GKBaseAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC3424ED2D60002D1C98 /* GKBaseAnimatedTransition.swift */; };
 		1E41BC4324ED2D60002D1C98 /* GKNavigationBarSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC3524ED2D60002D1C98 /* GKNavigationBarSwift.bundle */; };
 		1E41BC4424ED2D60002D1C98 /* GKPushAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC3624ED2D60002D1C98 /* GKPushAnimatedTransition.swift */; };
+		1E41BC4724ED2E35002D1C98 /* FYNetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4624ED2E35002D1C98 /* FYNetTool.swift */; };
 		2EC51F80D4DF3A11C262BFA9 /* Pods_FYSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		1E41BC3424ED2D60002D1C98 /* GKBaseAnimatedTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKBaseAnimatedTransition.swift; sourceTree = "<group>"; };
 		1E41BC3524ED2D60002D1C98 /* GKNavigationBarSwift.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GKNavigationBarSwift.bundle; sourceTree = "<group>"; };
 		1E41BC3624ED2D60002D1C98 /* GKPushAnimatedTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKPushAnimatedTransition.swift; sourceTree = "<group>"; };
+		1E41BC4624ED2E35002D1C98 /* FYNetTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYNetTool.swift; sourceTree = "<group>"; };
 		45EF660CDFFABBD7A842691F /* Pods-FYSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.debug.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A426BB929E2FE2681C9395 /* Pods-FYSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.release.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 		1E41BBFE24ED2A84002D1C98 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				1E41BC4524ED2E19002D1C98 /* Net */,
 				1E41BC2724ED2D5F002D1C98 /* CustomNav */,
 				1E41BC1C24ED2D46002D1C98 /* Toast */,
 				1E41BBFF24ED2AA7002D1C98 /* IDButton.swift */,
@@ -189,6 +192,14 @@
 				1E41BC3624ED2D60002D1C98 /* GKPushAnimatedTransition.swift */,
 			);
 			path = CustomNav;
+			sourceTree = "<group>";
+		};
+		1E41BC4524ED2E19002D1C98 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				1E41BC4624ED2E35002D1C98 /* FYNetTool.swift */,
+			);
+			path = Net;
 			sourceTree = "<group>";
 		};
 		5F58C156D447FC700E8DB9A4 /* Frameworks */ = {
@@ -328,6 +339,7 @@
 				1E41BC2224ED2D46002D1C98 /* MCToast+Text.swift in Sources */,
 				1E41BC3924ED2D60002D1C98 /* GKNavigationBarSwift.swift in Sources */,
 				1E41BC2624ED2D46002D1C98 /* MCToast+Remove.swift in Sources */,
+				1E41BC4724ED2E35002D1C98 /* FYNetTool.swift in Sources */,
 				1E41BC3C24ED2D60002D1C98 /* UIViewController+GKExtension.swift in Sources */,
 				1E41BC3D24ED2D60002D1C98 /* UIImage+GKExtension.swift in Sources */,
 				1E41BC2524ED2D46002D1C98 /* MCToastConfig.swift in Sources */,
