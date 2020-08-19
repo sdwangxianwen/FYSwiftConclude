@@ -38,6 +38,15 @@
 		1E41BC4C24ED32DC002D1C98 /* FYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */; };
 		1E41BC4E24ED32F7002D1C98 /* FYTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4D24ED32F7002D1C98 /* FYTabBarViewController.swift */; };
 		1E41BC5024ED347F002D1C98 /* FYHomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4F24ED347F002D1C98 /* FYHomeDetailViewController.swift */; };
+		1E41BC5C24ED4858002D1C98 /* wangyi40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5324ED4857002D1C98 /* wangyi40x40@3x.png */; };
+		1E41BC5D24ED4858002D1C98 /* wangyi60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5424ED4857002D1C98 /* wangyi60x60@2x.png */; };
+		1E41BC5E24ED4858002D1C98 /* wangyi29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5524ED4857002D1C98 /* wangyi29x29@3x.png */; };
+		1E41BC5F24ED4858002D1C98 /* wangyi29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5624ED4858002D1C98 /* wangyi29x29.png */; };
+		1E41BC6024ED4858002D1C98 /* wangyi20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5724ED4858002D1C98 /* wangyi20x20@2x.png */; };
+		1E41BC6124ED4858002D1C98 /* wangyi29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5824ED4858002D1C98 /* wangyi29x29@2x.png */; };
+		1E41BC6224ED4858002D1C98 /* wangyi40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5924ED4858002D1C98 /* wangyi40x40@2x.png */; };
+		1E41BC6324ED4858002D1C98 /* wangyi60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5A24ED4858002D1C98 /* wangyi60x60@3x.png */; };
+		1E41BC6424ED4858002D1C98 /* wangyi20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5B24ED4858002D1C98 /* wangyi20x20@3x.png */; };
 		2EC51F80D4DF3A11C262BFA9 /* Pods_FYSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +85,15 @@
 		1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYHomeViewController.swift; sourceTree = "<group>"; };
 		1E41BC4D24ED32F7002D1C98 /* FYTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYTabBarViewController.swift; sourceTree = "<group>"; };
 		1E41BC4F24ED347F002D1C98 /* FYHomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYHomeDetailViewController.swift; sourceTree = "<group>"; };
+		1E41BC5324ED4857002D1C98 /* wangyi40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi40x40@3x.png"; sourceTree = "<group>"; };
+		1E41BC5424ED4857002D1C98 /* wangyi60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi60x60@2x.png"; sourceTree = "<group>"; };
+		1E41BC5524ED4857002D1C98 /* wangyi29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi29x29@3x.png"; sourceTree = "<group>"; };
+		1E41BC5624ED4858002D1C98 /* wangyi29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wangyi29x29.png; sourceTree = "<group>"; };
+		1E41BC5724ED4858002D1C98 /* wangyi20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi20x20@2x.png"; sourceTree = "<group>"; };
+		1E41BC5824ED4858002D1C98 /* wangyi29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi29x29@2x.png"; sourceTree = "<group>"; };
+		1E41BC5924ED4858002D1C98 /* wangyi40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi40x40@2x.png"; sourceTree = "<group>"; };
+		1E41BC5A24ED4858002D1C98 /* wangyi60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi60x60@3x.png"; sourceTree = "<group>"; };
+		1E41BC5B24ED4858002D1C98 /* wangyi20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi20x20@3x.png"; sourceTree = "<group>"; };
 		45EF660CDFFABBD7A842691F /* Pods-FYSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.debug.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A426BB929E2FE2681C9395 /* Pods-FYSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.release.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +150,7 @@
 				1E41BBED24ED243E002D1C98 /* Assets.xcassets */,
 				1E41BBEF24ED243E002D1C98 /* LaunchScreen.storyboard */,
 				1E41BBF224ED243E002D1C98 /* Info.plist */,
+				1E41BC5224ED3982002D1C98 /* wangyi */,
 			);
 			path = FYSwift;
 			sourceTree = "<group>";
@@ -216,6 +235,22 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		1E41BC5224ED3982002D1C98 /* wangyi */ = {
+			isa = PBXGroup;
+			children = (
+				1E41BC5724ED4858002D1C98 /* wangyi20x20@2x.png */,
+				1E41BC5B24ED4858002D1C98 /* wangyi20x20@3x.png */,
+				1E41BC5624ED4858002D1C98 /* wangyi29x29.png */,
+				1E41BC5824ED4858002D1C98 /* wangyi29x29@2x.png */,
+				1E41BC5524ED4857002D1C98 /* wangyi29x29@3x.png */,
+				1E41BC5924ED4858002D1C98 /* wangyi40x40@2x.png */,
+				1E41BC5324ED4857002D1C98 /* wangyi40x40@3x.png */,
+				1E41BC5424ED4857002D1C98 /* wangyi60x60@2x.png */,
+				1E41BC5A24ED4858002D1C98 /* wangyi60x60@3x.png */,
+			);
+			path = wangyi;
+			sourceTree = "<group>";
+		};
 		5F58C156D447FC700E8DB9A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,9 +319,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E41BC6324ED4858002D1C98 /* wangyi60x60@3x.png in Resources */,
+				1E41BC5D24ED4858002D1C98 /* wangyi60x60@2x.png in Resources */,
+				1E41BC5E24ED4858002D1C98 /* wangyi29x29@3x.png in Resources */,
 				1E41BBF124ED243E002D1C98 /* LaunchScreen.storyboard in Resources */,
 				1E41BBEE24ED243E002D1C98 /* Assets.xcassets in Resources */,
+				1E41BC6124ED4858002D1C98 /* wangyi29x29@2x.png in Resources */,
+				1E41BC5F24ED4858002D1C98 /* wangyi29x29.png in Resources */,
+				1E41BC6424ED4858002D1C98 /* wangyi20x20@3x.png in Resources */,
+				1E41BC6224ED4858002D1C98 /* wangyi40x40@2x.png in Resources */,
 				1E41BC4324ED2D60002D1C98 /* GKNavigationBarSwift.bundle in Resources */,
+				1E41BC6024ED4858002D1C98 /* wangyi20x20@2x.png in Resources */,
+				1E41BC5C24ED4858002D1C98 /* wangyi40x40@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
