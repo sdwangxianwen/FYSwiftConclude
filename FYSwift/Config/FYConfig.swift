@@ -165,4 +165,10 @@ func imageWithColor(color:UIColor) -> UIImage {
     return image!
     
 }
-
+//按钮点击反馈
+func feedbackGenerator() {
+    let generator = UIImpactFeedbackGenerator.init(style: .light)
+    generator.prepare()
+    generator.impactOccurred()
+    
+}

@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1E41BBE524ED243A002D1C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBE424ED243A002D1C98 /* AppDelegate.swift */; };
 		1E41BBE724ED243A002D1C98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */; };
-		1E41BBE924ED243A002D1C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBE824ED243A002D1C98 /* ViewController.swift */; };
-		1E41BBEC24ED243A002D1C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BBEA24ED243A002D1C98 /* Main.storyboard */; };
 		1E41BBEE24ED243E002D1C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BBED24ED243E002D1C98 /* Assets.xcassets */; };
 		1E41BBF124ED243E002D1C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BBEF24ED243E002D1C98 /* LaunchScreen.storyboard */; };
 		1E41BBFA24ED2660002D1C98 /* FYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBF924ED2660002D1C98 /* FYConfig.swift */; };
@@ -36,6 +34,9 @@
 		1E41BC4324ED2D60002D1C98 /* GKNavigationBarSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC3524ED2D60002D1C98 /* GKNavigationBarSwift.bundle */; };
 		1E41BC4424ED2D60002D1C98 /* GKPushAnimatedTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC3624ED2D60002D1C98 /* GKPushAnimatedTransition.swift */; };
 		1E41BC4724ED2E35002D1C98 /* FYNetTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4624ED2E35002D1C98 /* FYNetTool.swift */; };
+		1E41BC4A24ED30C6002D1C98 /* FYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4924ED30C6002D1C98 /* FYBaseViewController.swift */; };
+		1E41BC4C24ED32DC002D1C98 /* FYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */; };
+		1E41BC4E24ED32F7002D1C98 /* FYTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4D24ED32F7002D1C98 /* FYTabBarViewController.swift */; };
 		2EC51F80D4DF3A11C262BFA9 /* Pods_FYSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +44,6 @@
 		1E41BBE124ED243A002D1C98 /* FYSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E41BBE424ED243A002D1C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E41BBE824ED243A002D1C98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E41BBEB24ED243A002D1C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E41BBED24ED243E002D1C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E41BBF024ED243E002D1C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E41BBF224ED243E002D1C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +71,9 @@
 		1E41BC3524ED2D60002D1C98 /* GKNavigationBarSwift.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GKNavigationBarSwift.bundle; sourceTree = "<group>"; };
 		1E41BC3624ED2D60002D1C98 /* GKPushAnimatedTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GKPushAnimatedTransition.swift; sourceTree = "<group>"; };
 		1E41BC4624ED2E35002D1C98 /* FYNetTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYNetTool.swift; sourceTree = "<group>"; };
+		1E41BC4924ED30C6002D1C98 /* FYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYBaseViewController.swift; sourceTree = "<group>"; };
+		1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYHomeViewController.swift; sourceTree = "<group>"; };
+		1E41BC4D24ED32F7002D1C98 /* FYTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYTabBarViewController.swift; sourceTree = "<group>"; };
 		45EF660CDFFABBD7A842691F /* Pods-FYSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.debug.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A426BB929E2FE2681C9395 /* Pods-FYSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.release.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,11 +123,11 @@
 			children = (
 				1E41BBE424ED243A002D1C98 /* AppDelegate.swift */,
 				1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */,
-				1E41BBE824ED243A002D1C98 /* ViewController.swift */,
+				1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */,
+				1E41BC4824ED30B6002D1C98 /* Base */,
 				1E41BBFE24ED2A84002D1C98 /* Tool */,
 				1E41BBFB24ED28D8002D1C98 /* Category */,
 				1E41BBF824ED2641002D1C98 /* Config */,
-				1E41BBEA24ED243A002D1C98 /* Main.storyboard */,
 				1E41BBED24ED243E002D1C98 /* Assets.xcassets */,
 				1E41BBEF24ED243E002D1C98 /* LaunchScreen.storyboard */,
 				1E41BBF224ED243E002D1C98 /* Info.plist */,
@@ -202,6 +204,15 @@
 			path = Net;
 			sourceTree = "<group>";
 		};
+		1E41BC4824ED30B6002D1C98 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1E41BC4924ED30C6002D1C98 /* FYBaseViewController.swift */,
+				1E41BC4D24ED32F7002D1C98 /* FYTabBarViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5F58C156D447FC700E8DB9A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,7 +283,6 @@
 			files = (
 				1E41BBF124ED243E002D1C98 /* LaunchScreen.storyboard in Resources */,
 				1E41BBEE24ED243E002D1C98 /* Assets.xcassets in Resources */,
-				1E41BBEC24ED243A002D1C98 /* Main.storyboard in Resources */,
 				1E41BC4324ED2D60002D1C98 /* GKNavigationBarSwift.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +338,6 @@
 			files = (
 				1E41BC0024ED2AA7002D1C98 /* IDButton.swift in Sources */,
 				1E41BC2424ED2D46002D1C98 /* MCToast.swift in Sources */,
-				1E41BBE924ED243A002D1C98 /* ViewController.swift in Sources */,
 				1E41BC4024ED2D60002D1C98 /* GKNavigationBarDefine.swift in Sources */,
 				1E41BC3824ED2D60002D1C98 /* UINavigationController+GKExtension.swift in Sources */,
 				1E41BC3B24ED2D60002D1C98 /* UINavigationItem+GKExtension.swift in Sources */,
@@ -336,14 +345,17 @@
 				1E41BC3724ED2D60002D1C98 /* UIScrollView+GKExtension.swift in Sources */,
 				1E41BBE524ED243A002D1C98 /* AppDelegate.swift in Sources */,
 				1E41BC3F24ED2D60002D1C98 /* GKPopAnimatedTransition.swift in Sources */,
+				1E41BC4A24ED30C6002D1C98 /* FYBaseViewController.swift in Sources */,
 				1E41BC2224ED2D46002D1C98 /* MCToast+Text.swift in Sources */,
 				1E41BC3924ED2D60002D1C98 /* GKNavigationBarSwift.swift in Sources */,
 				1E41BC2624ED2D46002D1C98 /* MCToast+Remove.swift in Sources */,
 				1E41BC4724ED2E35002D1C98 /* FYNetTool.swift in Sources */,
+				1E41BC4E24ED32F7002D1C98 /* FYTabBarViewController.swift in Sources */,
 				1E41BC3C24ED2D60002D1C98 /* UIViewController+GKExtension.swift in Sources */,
 				1E41BC3D24ED2D60002D1C98 /* UIImage+GKExtension.swift in Sources */,
 				1E41BC2524ED2D46002D1C98 /* MCToastConfig.swift in Sources */,
 				1E41BC2324ED2D46002D1C98 /* MCToast+Loading.swift in Sources */,
+				1E41BC4C24ED32DC002D1C98 /* FYHomeViewController.swift in Sources */,
 				1E41BC4424ED2D60002D1C98 /* GKPushAnimatedTransition.swift in Sources */,
 				1E41BBFD24ED28ED002D1C98 /* FYCategory.swift in Sources */,
 				1E41BC3E24ED2D60002D1C98 /* UIBarButtonItem+GKExtension.swift in Sources */,
@@ -357,14 +369,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E41BBEA24ED243A002D1C98 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E41BBEB24ED243A002D1C98 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E41BBEF24ED243E002D1C98 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
