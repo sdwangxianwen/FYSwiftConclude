@@ -16,7 +16,9 @@ class FYHomeViewController: FYBaseViewController {
         gk_navBackgroundImage = imageWithColor(color: UIColor.color(hex: "#ef8900"))
         
     }
-    
-
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+      let vc = FYHomeDetailViewController.init()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 
 }

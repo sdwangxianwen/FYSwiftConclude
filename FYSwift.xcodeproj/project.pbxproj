@@ -37,6 +37,7 @@
 		1E41BC4A24ED30C6002D1C98 /* FYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4924ED30C6002D1C98 /* FYBaseViewController.swift */; };
 		1E41BC4C24ED32DC002D1C98 /* FYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */; };
 		1E41BC4E24ED32F7002D1C98 /* FYTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4D24ED32F7002D1C98 /* FYTabBarViewController.swift */; };
+		1E41BC5024ED347F002D1C98 /* FYHomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BC4F24ED347F002D1C98 /* FYHomeDetailViewController.swift */; };
 		2EC51F80D4DF3A11C262BFA9 /* Pods_FYSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		1E41BC4924ED30C6002D1C98 /* FYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYBaseViewController.swift; sourceTree = "<group>"; };
 		1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYHomeViewController.swift; sourceTree = "<group>"; };
 		1E41BC4D24ED32F7002D1C98 /* FYTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYTabBarViewController.swift; sourceTree = "<group>"; };
+		1E41BC4F24ED347F002D1C98 /* FYHomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYHomeDetailViewController.swift; sourceTree = "<group>"; };
 		45EF660CDFFABBD7A842691F /* Pods-FYSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.debug.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A426BB929E2FE2681C9395 /* Pods-FYSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.release.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +126,7 @@
 				1E41BBE424ED243A002D1C98 /* AppDelegate.swift */,
 				1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */,
 				1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */,
+				1E41BC4F24ED347F002D1C98 /* FYHomeDetailViewController.swift */,
 				1E41BC4824ED30B6002D1C98 /* Base */,
 				1E41BBFE24ED2A84002D1C98 /* Tool */,
 				1E41BBFB24ED28D8002D1C98 /* Category */,
@@ -354,6 +357,7 @@
 				1E41BC3C24ED2D60002D1C98 /* UIViewController+GKExtension.swift in Sources */,
 				1E41BC3D24ED2D60002D1C98 /* UIImage+GKExtension.swift in Sources */,
 				1E41BC2524ED2D46002D1C98 /* MCToastConfig.swift in Sources */,
+				1E41BC5024ED347F002D1C98 /* FYHomeDetailViewController.swift in Sources */,
 				1E41BC2324ED2D46002D1C98 /* MCToast+Loading.swift in Sources */,
 				1E41BC4C24ED32DC002D1C98 /* FYHomeViewController.swift in Sources */,
 				1E41BC4424ED2D60002D1C98 /* GKPushAnimatedTransition.swift in Sources */,
