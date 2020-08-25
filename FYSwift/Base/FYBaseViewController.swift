@@ -43,15 +43,15 @@ class FYBaseViewController: UIViewController {
     
     lazy var tableView:UITableView = {
         let mainTableView = UITableView.init(frame: CGRect.zero, style: UITableView.Style.plain)
-        mainTableView.frame = CGRect(x: 0, y: kNavBarHeight, width: kScreenWidth, height: kScreenHeight - kNavBarHeight)
+//        mainTableView.frame = CGRect(x: 0, y: kNavBarHeight, width: kScreenWidth, height: kScreenHeight - kNavBarHeight)
         mainTableView.showsVerticalScrollIndicator = false
         mainTableView.showsHorizontalScrollIndicator = false
         mainTableView.backgroundColor = UIColor.color(lightHex: "#ffffff", darkHex: "#ffffff")
-        if #available(iOS 11.0, *) {
-            mainTableView.contentInsetAdjustmentBehavior = .never
-        } else {
-            self.automaticallyAdjustsScrollViewInsets = false
-        }
+//        if #available(iOS 11.0, *) {
+//            mainTableView.contentInsetAdjustmentBehavior = .never
+//        } else {
+//            self.automaticallyAdjustsScrollViewInsets = false
+//        }
         mainTableView.rowHeight = UITableView.automaticDimension
         mainTableView.estimatedRowHeight = 200
         mainTableView.tableFooterView = UIView.init()

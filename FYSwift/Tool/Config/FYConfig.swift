@@ -25,36 +25,34 @@ func getApp_version() -> String {
     
 }
 //这种判断只有在竖屏的时候有效
-func isPhoneX()->Bool  {
+let isPhoneX : Bool = (
     //有SceneDelegate的时候
-    if #available(iOS 11.0, *) {
-        if (UIApplication.shared.delegate as? SceneDelegate )?.window?.safeAreaInsets.bottom != 0 {
-            return true
-        }
-    }
-    return false
-    //没有 SceneDelegate的时候
+   (UIScreen.instancesRespond(to: #selector(getter: UIScreen.main.currentMode)) ? __CGSizeEqualToSize(CGSize(width: 375, height:812), UIScreen.main.bounds.size) : false) ||
+    (UIScreen.instancesRespond(to: #selector(getter: UIScreen.main.currentMode)) ? __CGSizeEqualToSize(CGSize(width: 812, height:375), UIScreen.main.bounds.size) : false) ||
+    (UIScreen.instancesRespond(to: #selector(getter: UIScreen.main.currentMode)) ? __CGSizeEqualToSize(CGSize(width: 414, height:896), UIScreen.main.bounds.size) : false) ||
+    (UIScreen.instancesRespond(to: #selector(getter: UIScreen.main.currentMode)) ? __CGSizeEqualToSize(CGSize(width: 896, height:414), UIScreen.main.bounds.size) : false))
+//    //没有 SceneDelegate的时候
 //    if #available(iOS 11.0, *) {
 //        if (UIApplication.shared.delegate as? AppDelegate )?.window?.safeAreaInsets.bottom != 0 {
 //            return true
 //        }
 //    }
 //    return false
-}
+//}
 
 //状态栏高度，iOS13以上这样获取
-let kStatusBarHeight =  UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height
+let kStatusBarHeight =  UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height ?? 0
 //let kStatusBarHeight = UIApplication.shared.statusBarFrame.size.height //ios13以下这样获取
 //屏幕宽度
 var kScreenWidth = UIScreen.main.bounds.size.width
 /// 屏幕高度
 var kScreenHeight = UIScreen.main.bounds.size.height
 /// tabBar高度
-let kTabBarHeight:CGFloat = isPhoneX() ? 83 : 49
+let kTabBarHeight:CGFloat = isPhoneX ? 83 : 49
 /// nav高度
-let kNavBarHeight:CGFloat = isPhoneX() ? 88 : 64
+let kNavBarHeight:CGFloat = isPhoneX ? 88 : 64
 /// 底部手势框的高度
-let kBottomLineHeight : CGFloat = isPhoneX() ? 34 : 0
+let kBottomLineHeight : CGFloat = isPhoneX ? 34 : 0
 
 // 获取当前页面的控制器
 /// - Returns: 当前页面的控制器

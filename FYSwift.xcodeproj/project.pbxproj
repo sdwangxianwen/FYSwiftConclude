@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0FA4E924EF7525005D243D /* FYButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FA4E824EF7525005D243D /* FYButtonViewController.swift */; };
+		1E0FA4ED24EF8051005D243D /* FYFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FA4EC24EF8051005D243D /* FYFavoriteButton.swift */; };
+		1E0FA4F424F3A4AC005D243D /* FYVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FA4F324F3A4AC005D243D /* FYVoteView.swift */; };
+		1E0FA4F624F3AF90005D243D /* FYDemoVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FA4F524F3AF90005D243D /* FYDemoVoteView.swift */; };
 		1E41BBE524ED243A002D1C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBE424ED243A002D1C98 /* AppDelegate.swift */; };
 		1E41BBE724ED243A002D1C98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */; };
 		1E41BBEE24ED243E002D1C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BBED24ED243E002D1C98 /* Assets.xcassets */; };
@@ -51,6 +55,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0FA4E824EF7525005D243D /* FYButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYButtonViewController.swift; sourceTree = "<group>"; };
+		1E0FA4EC24EF8051005D243D /* FYFavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYFavoriteButton.swift; sourceTree = "<group>"; };
+		1E0FA4F324F3A4AC005D243D /* FYVoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYVoteView.swift; sourceTree = "<group>"; };
+		1E0FA4F524F3AF90005D243D /* FYDemoVoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDemoVoteView.swift; sourceTree = "<group>"; };
 		1E41BBE124ED243A002D1C98 /* FYSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E41BBE424ED243A002D1C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +128,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		1E0FA4E724EF7509005D243D /* 按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FA4E824EF7525005D243D /* FYButtonViewController.swift */,
+			);
+			path = "按钮";
+			sourceTree = "<group>";
+		};
 		1E41BBD824ED243A002D1C98 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +161,7 @@
 				1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */,
 				1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */,
 				1E41BC4F24ED347F002D1C98 /* FYHomeDetailViewController.swift */,
+				1E0FA4E724EF7509005D243D /* 按钮 */,
 				1E41BC4824ED30B6002D1C98 /* Base */,
 				1E41BBFE24ED2A84002D1C98 /* Tool */,
 				1E41BBED24ED243E002D1C98 /* Assets.xcassets */,
@@ -180,6 +197,9 @@
 				1E41BC2724ED2D5F002D1C98 /* CustomNav */,
 				1E41BC1C24ED2D46002D1C98 /* Toast */,
 				1E41BBFF24ED2AA7002D1C98 /* IDButton.swift */,
+				1E0FA4EC24EF8051005D243D /* FYFavoriteButton.swift */,
+				1E0FA4F324F3A4AC005D243D /* FYVoteView.swift */,
+				1E0FA4F524F3AF90005D243D /* FYDemoVoteView.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -383,15 +403,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0FA4E924EF7525005D243D /* FYButtonViewController.swift in Sources */,
 				1E41BC0024ED2AA7002D1C98 /* IDButton.swift in Sources */,
 				1E41BC2424ED2D46002D1C98 /* MCToast.swift in Sources */,
 				1E41BC4024ED2D60002D1C98 /* GKNavigationBarDefine.swift in Sources */,
+				1E0FA4F424F3A4AC005D243D /* FYVoteView.swift in Sources */,
 				1E41BC3824ED2D60002D1C98 /* UINavigationController+GKExtension.swift in Sources */,
 				1E41BC3B24ED2D60002D1C98 /* UINavigationItem+GKExtension.swift in Sources */,
 				1E41BC4124ED2D60002D1C98 /* GKNavigationBarConfigure.swift in Sources */,
 				1E41BC3724ED2D60002D1C98 /* UIScrollView+GKExtension.swift in Sources */,
+				1E0FA4ED24EF8051005D243D /* FYFavoriteButton.swift in Sources */,
 				1E41BBE524ED243A002D1C98 /* AppDelegate.swift in Sources */,
 				1E41BC3F24ED2D60002D1C98 /* GKPopAnimatedTransition.swift in Sources */,
+				1E0FA4F624F3AF90005D243D /* FYDemoVoteView.swift in Sources */,
 				1E41BC4A24ED30C6002D1C98 /* FYBaseViewController.swift in Sources */,
 				1E41BC2224ED2D46002D1C98 /* MCToast+Text.swift in Sources */,
 				1E41BC3924ED2D60002D1C98 /* GKNavigationBarSwift.swift in Sources */,
