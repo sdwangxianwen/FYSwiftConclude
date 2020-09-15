@@ -73,7 +73,7 @@ class FYDemoVoteView: UIStackView {
         vote.btnImage = "butuijian1"
         vote.title = "不推荐"
         vote.normalColor = UIColor.color(hex: "#666666")
-        vote.selectColor = .red
+        vote.selectColor = .black
         vote.countNum = 50
         vote.voteBtnClickClouse = {[weak self] (voteview : FYVoteView) in
             guard let sself = self  else {return}
@@ -91,17 +91,9 @@ class FYDemoVoteView: UIStackView {
             if subVoteView == vote {
                 subVoteView.isSelected = !vote.isSelected
                 subVoteView.countNum = vote.countNum
-//                if subVoteView.isSelected {
-//                    subVoteView.countNum = subVoteView.countNum + 1
-//                } else {
-//                     subVoteView.countNum = subVoteView.countNum - 1
-////                   subVoteView.countNum = countNum - 1
-//                }
-         
+
             }else {
                 subVoteView.isSelected = false
-//                subVoteView.countNum = subVoteView.countNum
-                
             }
         }
        

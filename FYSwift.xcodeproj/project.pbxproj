@@ -11,6 +11,7 @@
 		1E0FA4ED24EF8051005D243D /* FYFavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FA4EC24EF8051005D243D /* FYFavoriteButton.swift */; };
 		1E0FA4F424F3A4AC005D243D /* FYVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FA4F324F3A4AC005D243D /* FYVoteView.swift */; };
 		1E0FA4F624F3AF90005D243D /* FYDemoVoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FA4F524F3AF90005D243D /* FYDemoVoteView.swift */; };
+		1E37E808251066D6006A952A /* FYDateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E37E807251066D6006A952A /* FYDateConfig.swift */; };
 		1E41BBE524ED243A002D1C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBE424ED243A002D1C98 /* AppDelegate.swift */; };
 		1E41BBE724ED243A002D1C98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */; };
 		1E41BBEE24ED243E002D1C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BBED24ED243E002D1C98 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		1E41BC6224ED4858002D1C98 /* wangyi40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5924ED4858002D1C98 /* wangyi40x40@2x.png */; };
 		1E41BC6324ED4858002D1C98 /* wangyi60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5A24ED4858002D1C98 /* wangyi60x60@3x.png */; };
 		1E41BC6424ED4858002D1C98 /* wangyi20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5B24ED4858002D1C98 /* wangyi20x20@3x.png */; };
+		1E72CCD524F903F6000A3547 /* FYSearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E72CCD424F903F6000A3547 /* FYSearchResultViewController.swift */; };
 		2EC51F80D4DF3A11C262BFA9 /* Pods_FYSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,7 @@
 		1E0FA4EC24EF8051005D243D /* FYFavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYFavoriteButton.swift; sourceTree = "<group>"; };
 		1E0FA4F324F3A4AC005D243D /* FYVoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYVoteView.swift; sourceTree = "<group>"; };
 		1E0FA4F524F3AF90005D243D /* FYDemoVoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDemoVoteView.swift; sourceTree = "<group>"; };
+		1E37E807251066D6006A952A /* FYDateConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYDateConfig.swift; sourceTree = "<group>"; };
 		1E41BBE124ED243A002D1C98 /* FYSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E41BBE424ED243A002D1C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +105,7 @@
 		1E41BC5924ED4858002D1C98 /* wangyi40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi40x40@2x.png"; sourceTree = "<group>"; };
 		1E41BC5A24ED4858002D1C98 /* wangyi60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi60x60@3x.png"; sourceTree = "<group>"; };
 		1E41BC5B24ED4858002D1C98 /* wangyi20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi20x20@3x.png"; sourceTree = "<group>"; };
+		1E72CCD424F903F6000A3547 /* FYSearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYSearchResultViewController.swift; sourceTree = "<group>"; };
 		45EF660CDFFABBD7A842691F /* Pods-FYSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.debug.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A426BB929E2FE2681C9395 /* Pods-FYSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.release.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +140,14 @@
 			path = "按钮";
 			sourceTree = "<group>";
 		};
+		1E37E806251066BC006A952A /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				1E37E807251066D6006A952A /* FYDateConfig.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		1E41BBD824ED243A002D1C98 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +173,7 @@
 				1E41BBE624ED243A002D1C98 /* SceneDelegate.swift */,
 				1E41BC4B24ED32DC002D1C98 /* FYHomeViewController.swift */,
 				1E41BC4F24ED347F002D1C98 /* FYHomeDetailViewController.swift */,
+				1E72CCD424F903F6000A3547 /* FYSearchResultViewController.swift */,
 				1E0FA4E724EF7509005D243D /* 按钮 */,
 				1E41BC4824ED30B6002D1C98 /* Base */,
 				1E41BBFE24ED2A84002D1C98 /* Tool */,
@@ -191,6 +204,7 @@
 		1E41BBFE24ED2A84002D1C98 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				1E37E806251066BC006A952A /* Date */,
 				1E41BBF824ED2641002D1C98 /* Config */,
 				1E41BBFB24ED28D8002D1C98 /* Category */,
 				1E41BC4524ED2E19002D1C98 /* Net */,
@@ -404,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0FA4E924EF7525005D243D /* FYButtonViewController.swift in Sources */,
+				1E72CCD524F903F6000A3547 /* FYSearchResultViewController.swift in Sources */,
 				1E41BC0024ED2AA7002D1C98 /* IDButton.swift in Sources */,
 				1E41BC2424ED2D46002D1C98 /* MCToast.swift in Sources */,
 				1E41BC4024ED2D60002D1C98 /* GKNavigationBarDefine.swift in Sources */,
@@ -428,6 +443,7 @@
 				1E41BC5024ED347F002D1C98 /* FYHomeDetailViewController.swift in Sources */,
 				1E41BC2324ED2D46002D1C98 /* MCToast+Loading.swift in Sources */,
 				1E41BC4C24ED32DC002D1C98 /* FYHomeViewController.swift in Sources */,
+				1E37E808251066D6006A952A /* FYDateConfig.swift in Sources */,
 				1E41BC4424ED2D60002D1C98 /* GKPushAnimatedTransition.swift in Sources */,
 				1E41BBFD24ED28ED002D1C98 /* FYCategory.swift in Sources */,
 				1E41BC3E24ED2D60002D1C98 /* UIBarButtonItem+GKExtension.swift in Sources */,
@@ -573,6 +589,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FYSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -591,6 +608,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FYSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -47,11 +47,11 @@ class FYBaseViewController: UIViewController {
         mainTableView.showsVerticalScrollIndicator = false
         mainTableView.showsHorizontalScrollIndicator = false
         mainTableView.backgroundColor = UIColor.color(lightHex: "#ffffff", darkHex: "#ffffff")
-//        if #available(iOS 11.0, *) {
-//            mainTableView.contentInsetAdjustmentBehavior = .never
-//        } else {
-//            self.automaticallyAdjustsScrollViewInsets = false
-//        }
+        if #available(iOS 11.0, *) {
+            mainTableView.contentInsetAdjustmentBehavior = .never
+        } else {
+            self.automaticallyAdjustsScrollViewInsets = false
+        }
         mainTableView.rowHeight = UITableView.automaticDimension
         mainTableView.estimatedRowHeight = 200
         mainTableView.tableFooterView = UIView.init()

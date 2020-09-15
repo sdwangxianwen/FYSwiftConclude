@@ -250,3 +250,49 @@ extension UIView {
         }
     }
 }
+
+
+extension UIButton {
+    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+      
+        print(self.titleLabel?.text as Any) 
+    }
+}
+
+extension UITableViewCell {
+    
+    func addSectionCornerWithTableView(tableView:UITableView,cell:UITableViewCell,indexPath:IndexPath,cornerRadius:CGFloat,fillColor:String) {
+        let pathRef = CGMutablePath()
+        let bounds = cell.bounds
+        if indexPath.row == 0 && indexPath.row == tableView.numberOfRows(inSection: indexPath.section) - 1 {
+            /** 每组只有一行的时候 */
+            pathRef.move(to: CGPoint(x: bounds.midX, y: bounds.maxY), transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.minX, y: bounds.maxY), tangent2End: CGPoint(x: bounds.minX, y: bounds.midY), radius: cornerRadius, transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.minX, y: bounds.minY), tangent2End: CGPoint(x: bounds.midX, y: bounds.minY), radius: cornerRadius, transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.maxX, y: bounds.minY), tangent2End: CGPoint(x: bounds.maxX, y: bounds.midY), radius: cornerRadius, transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.maxX, y: bounds.maxY), tangent2End: CGPoint(x: bounds.midX, y: bounds.maxY), radius: cornerRadius, transform: .identity)
+        } else if indexPath.row == 0 {
+            pathRef.move(to: CGPoint(x: bounds.minX, y: bounds.maxY), transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.minX, y: bounds.minY), tangent2End: CGPoint(x: bounds.midX, y: bounds.minY), radius: cornerRadius, transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.maxX, y: bounds.minY), tangent2End: CGPoint(x: bounds.maxX, y: bounds.midY), radius: cornerRadius, transform: .identity)
+            pathRef.addLine(to: CGPoint(x: bounds.maxX, y: bounds.maxY), transform: .identity)
+        } else if (indexPath.row == tableView.numberOfRows(inSection: indexPath.section) - 1) {
+            pathRef.move(to: CGPoint(x: bounds.minX, y: bounds.minY), transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.minX, y: bounds.maxY), tangent2End: CGPoint(x: bounds.midX, y: bounds.maxY), radius: cornerRadius, transform: .identity)
+            pathRef.addArc(tangent1End: CGPoint(x: bounds.maxX, y: bounds.maxY), tangent2End: CGPoint(x: bounds.maxX, y: bounds.midY), radius: cornerRadius, transform: .identity)
+            pathRef.addLine(to: CGPoint(x: bounds.maxX, y: bounds.minY), transform: .identity)
+        } else if (indexPath.row != 0 && indexPath.row != tableView.numberOfRows(inSection: indexPath.section) - 1) {
+            pathRef.addRect(bounds, transform: .identity)
+        }
+        
+        let layer = CAShapeLayer()
+        layer.path = pathRef
+        layer.fillColor = UIColor.color(hex: fillColor).cgColor
+
+        let backView = UIView(frame: bounds)
+        backView.layer.addSublayer(layer)
+        backView.backgroundColor = UIColor.clear
+        cell.backgroundView = backView
+    }
+}
