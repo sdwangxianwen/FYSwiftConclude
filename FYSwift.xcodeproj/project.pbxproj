@@ -53,6 +53,7 @@
 		1E41BC6324ED4858002D1C98 /* wangyi60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5A24ED4858002D1C98 /* wangyi60x60@3x.png */; };
 		1E41BC6424ED4858002D1C98 /* wangyi20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E41BC5B24ED4858002D1C98 /* wangyi20x20@3x.png */; };
 		1E72CCD524F903F6000A3547 /* FYSearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E72CCD424F903F6000A3547 /* FYSearchResultViewController.swift */; };
+		2193244A272928FF0092438B /* HomeApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21932449272928FF0092438B /* HomeApi.swift */; };
 		2EC51F80D4DF3A11C262BFA9 /* Pods_FYSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +107,7 @@
 		1E41BC5A24ED4858002D1C98 /* wangyi60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi60x60@3x.png"; sourceTree = "<group>"; };
 		1E41BC5B24ED4858002D1C98 /* wangyi20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wangyi20x20@3x.png"; sourceTree = "<group>"; };
 		1E72CCD424F903F6000A3547 /* FYSearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYSearchResultViewController.swift; sourceTree = "<group>"; };
+		21932449272928FF0092438B /* HomeApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApi.swift; sourceTree = "<group>"; };
 		45EF660CDFFABBD7A842691F /* Pods-FYSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.debug.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A426BB929E2FE2681C9395 /* Pods-FYSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYSwift.release.xcconfig"; path = "Target Support Files/Pods-FYSwift/Pods-FYSwift.release.xcconfig"; sourceTree = "<group>"; };
 		D21F09773BE06D487E483AE1 /* Pods_FYSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				1E41BC4624ED2E35002D1C98 /* FYNetTool.swift */,
+				21932449272928FF0092438B /* HomeApi.swift */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				1E41BC2624ED2D46002D1C98 /* MCToast+Remove.swift in Sources */,
 				1E41BC4724ED2E35002D1C98 /* FYNetTool.swift in Sources */,
 				1E41BC4E24ED32F7002D1C98 /* FYTabBarViewController.swift in Sources */,
+				2193244A272928FF0092438B /* HomeApi.swift in Sources */,
 				1E41BC3C24ED2D60002D1C98 /* UIViewController+GKExtension.swift in Sources */,
 				1E41BC3D24ED2D60002D1C98 /* UIImage+GKExtension.swift in Sources */,
 				1E41BC2524ED2D46002D1C98 /* MCToastConfig.swift in Sources */,

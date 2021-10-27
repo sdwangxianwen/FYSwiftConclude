@@ -26,6 +26,12 @@ class FYHomeViewController: FYBaseViewController {
         setupUI()
 //        self.view.backgroundColor = UIColor.color(hex: "#fff6f6f6")
 
+//        FYNetTool.shared.netConnect(target: .Home(.home)) { result in
+//            print(result)
+//        } failure: { result in
+//            print(result)
+//        }
+
         
     }
     

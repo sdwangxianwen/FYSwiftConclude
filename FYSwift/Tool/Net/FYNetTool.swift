@@ -10,43 +10,44 @@ import UIKit
 import Moya
 
 enum FYNetApi {
+    case Home(HomeAPI)
     case homeNetWorking(parm:NSMutableDictionary) //例子
 }
 extension FYNetApi : TargetType {
     var baseURL: URL {
-        switch self {
-        case .homeNetWorking :
-            return URL(string: "")!
-        }
+        return URL(string: "http://www.ruidaedu.com")!
        
     }
+    
     var path: String {
-        switch self {
-        case .homeNetWorking:
-            return ""
-        }
+        let result = self.getConfigure()
+        return result.1
         
     }
     var method: Moya.Method {
-        return .post
+        let result = self.getConfigure()
+        return result.0
     }
     
     var sampleData: Data {
         return "{}".data(using: String.Encoding.utf8)!
     }
     var task: Task {
-        var params = NSMutableDictionary.init()
-        switch self {
-        case .homeNetWorking(let parm):
-            params = parm
-            return .requestCompositeParameters(bodyParameters: params as! [String : Any], bodyEncoding: JSONEncoding.default, urlParameters: [:])
-            //根据项目需求
-            //return .requestParameters(parameters: params as! [String : Any], encoding: URLEncoding.default)
-        }
+        let result = self.getConfigure()
+        return .requestParameters(parameters: result.2, encoding: URLEncoding.default)
     }
     var headers: [String : String]? {
         return  [:]
     }
+    
+    private func getConfigure() -> (Moya.Method,String,[String:Any]) {
+        switch self {
+        case .Home(let homeAPI):
+            return (homeAPI.methond,homeAPI.path,homeAPI.parma)
+        case .homeNetWorking(let parm):
+            return (.get,"",[:])
+        }
+      }
 }
 
 // MARK: - 默认的网络提示请求插件
